@@ -1,0 +1,101 @@
+.content {
+  position: relative;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  gap: 40px;
+  margin-right: 90px;
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+.backGround {
+  height: calc(100vh - 45px);
+  position: absolute;
+  left: 0;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  gap: 40px;
+}
+input {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  width: 230px;
+  height: 25px;
+  padding-left: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(153, 153, 153, 1);
+  outline: none;
+  color: rgba(153, 153, 153, 1);
+  background-color: rgba(45, 51, 59, 1);
+}
+
+button {
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  width: 90px;
+  height: 25px;
+  border-radius: 20px;
+  outline: none;
+
+  border: 1px solid rgba(153, 153, 153, 1);
+  color: rgba(153, 153, 153, 1);
+  background-color: rgba(45, 51, 59, 1);
+}
+
+.user-result {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 280px;
+}
+.user-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 2px solid rgba(229, 229, 229, 1);
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+.user h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+}
+
+.user span {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 6px;
+  color: rgba(153, 153, 153, 1);
+}
+
+.user-info p {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 10.35px;
+  color: rgba(153, 153, 153, 1);
+}
