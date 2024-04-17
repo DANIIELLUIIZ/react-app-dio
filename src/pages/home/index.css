@@ -1,20 +1,28 @@
 .container {
   position: relative;
   display: flex;
-
-  justify-content: center;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .content {
   display: flex;
+  width: 50vw;
+  position: relative;
   flex-direction: column;
-  width: 900px;
-  margin-left: 20%;
-  margin-top: 100px;
+  margin-right: 15vw;
 }
 
 .backGround {
-  height: calc(100vh - 45px);
+  height: 100vh;
   position: absolute;
   left: 0;
+}
+
+.container h4 {
+  text-align: center;
+  margin: 24px 0;
+  font-family: roboto;
+  text-transform: uppercase;
+  font-size: 24px;
 }

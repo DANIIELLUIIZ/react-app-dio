@@ -1,7 +1,8 @@
 import Header from '../../components/Header/header'
 import BackGround from '../../assets/background.png'
 import Search from '../../components/Search/search'
-import Result from '../../components/ResultUser/result'
+
+
 import './index.css'
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
 
         <div className="content">
           <Search />
-          <Result />
-          <hr></hr>
+
+          
         </div>
       </div>
     </div>
